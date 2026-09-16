@@ -1,0 +1,6 @@
+input_edges_without_self_loops=2822983
+unique_undirected_edges=2772474
+communities=468
+modularity=0.9167395532890991
+largest_community=96575
+resolution=0.5

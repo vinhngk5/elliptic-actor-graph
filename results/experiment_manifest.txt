@@ -1,0 +1,7 @@
+dataset=Elliptic++
+sample_size=20000
+random_state=42
+methods=kmeans_4,kmeans_8,kmeans_12,hdbscan
+unknown_label=3
+feature_labels_excluded=true
+graph_features=weighted_out_degree,weighted_in_degree,out_degree,in_degree,self_loop_count

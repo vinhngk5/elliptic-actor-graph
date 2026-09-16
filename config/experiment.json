@@ -1,0 +1,26 @@
+{
+  "dataset": "Elliptic++",
+  "random_state": 42,
+  "sample_size": 20000,
+  "resource_profile": {
+    "ram_gb": 8,
+    "physical_cpu_cores": 2,
+    "blas_threads": 2,
+    "chunk_size": 250000
+  },
+  "clustering": {
+    "kmeans_clusters": [4, 8, 12],
+    "hdbscan_min_cluster_size": 50,
+    "hdbscan_min_samples": 10
+  },
+  "leiden": {
+    "resolutions": [0.5, 1.0, 2.0],
+    "headline_resolution": 1.0,
+    "minimum_reported_community_size": 30
+  },
+  "labels": {
+    "illicit": 1,
+    "licit": 2,
+    "unknown": 3
+  }
+}

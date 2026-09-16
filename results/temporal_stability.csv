@@ -1,0 +1,5 @@
+metric,value
+split_timestep,25
+common_actors,10000
+cluster_ari_between_windows,1.0
+early_known_actors,2802
