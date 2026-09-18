@@ -1,0 +1,19 @@
+{
+  "method": "node2vec_kmeans",
+  "n_nodes": 2000,
+  "n_edges": 1031,
+  "n_clusters": 8,
+  "embedding_dimensions": 32,
+  "runtime_seconds": 1.0877070010028547,
+  "seed": 42,
+  "silhouette": 0.6297745704650879,
+  "davies_bouldin": 0.8182761886360912,
+  "calinski_harabasz": 169.95021037871925,
+  "ari": -0.015304495318496935,
+  "nmi": 0.004022041963175511,
+  "ami": -0.0009828570365961317,
+  "research_questions": [
+    "Does a learned random-walk embedding capture actor similarity beyond direct AddrAddr communities?",
+    "Does Node2Vec improve label-aligned separation without using labels during training?"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "method": "spectral",
+  "n_nodes": 2000,
+  "n_edges": 1031,
+  "n_clusters": 8,
+  "runtime_seconds": 0.29105734399490757,
+  "seed": 42,
+  "requested_clusters": 8,
+  "silhouette": null,
+  "davies_bouldin": null,
+  "calinski_harabasz": null,
+  "ari": -0.006893064396372314,
+  "nmi": 0.0011240376797839147,
+  "ami": -0.0033497168315673445,
+  "research_questions": [
+    "How sensitive is feature-free spectral clustering to the selected number of communities?",
+    "Does spectral partitioning reveal structure that modularity optimization misses?"
+  ]
+}

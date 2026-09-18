@@ -1,0 +1,20 @@
+{
+  "method": "louvain",
+  "n_nodes": 2000,
+  "n_edges": 1031,
+  "n_clusters": 1362,
+  "modularity": 0.9247447784686685,
+  "runtime_seconds": 0.2840647870034445,
+  "seed": 42,
+  "resolution": 1.0,
+  "silhouette": null,
+  "davies_bouldin": null,
+  "calinski_harabasz": null,
+  "ari": 0.0006022152678985098,
+  "nmi": 0.017050733081720882,
+  "ami": 0.0042334792741784665,
+  "research_questions": [
+    "Do frequently interacting addresses form stable communities consistent with an address-level entity proxy?",
+    "How does AddrAddr community detection compare with learned graph embeddings?"
+  ]
+}

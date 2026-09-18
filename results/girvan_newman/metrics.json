@@ -1,0 +1,19 @@
+{
+  "method": "girvan_newman",
+  "n_nodes": 256,
+  "n_edges": 152,
+  "n_clusters": 189,
+  "modularity": 0.7349056318862632,
+  "runtime_seconds": 0.24944343000242952,
+  "requested_clusters": 4,
+  "silhouette": null,
+  "davies_bouldin": null,
+  "calinski_harabasz": null,
+  "ari": 0.0003293820111989884,
+  "nmi": 0.01444831983350512,
+  "ami": 0.0021792787055130787,
+  "research_questions": [
+    "Can edge-betweenness removal expose bridge addresses in a reproducible small-graph benchmark?",
+    "Does its partition differ materially from modularity-based methods?"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "method": "leiden",
+  "n_nodes": 2000,
+  "n_edges": 1031,
+  "n_clusters": 1364,
+  "modularity": 0.9247681963613685,
+  "runtime_seconds": 0.3169044509995729,
+  "seed": 42,
+  "resolution": 1.0,
+  "silhouette": null,
+  "davies_bouldin": null,
+  "calinski_harabasz": null,
+  "ari": 0.0006036264164860006,
+  "nmi": 0.017039300657378652,
+  "ami": 0.004216625498212924,
+  "research_questions": [
+    "Does Leiden produce more stable communities than Louvain on the same AddrAddr graph?",
+    "Are detected communities enriched for illicit addresses without using labels during clustering?"
+  ]
+}

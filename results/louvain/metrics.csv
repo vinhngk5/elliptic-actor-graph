@@ -1,0 +1,2 @@
+method,n_clusters,modularity,runtime_seconds,cluster_size_mean,cluster_size_std,cluster_size_min,cluster_size_max
+louvain,1386,0.8023395903147329,0.32598352432250977,1.443001443001443,4.381516759689278,1,111
